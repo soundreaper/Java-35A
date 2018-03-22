@@ -1,0 +1,12 @@
+Commissioned: name = Donald Duck, SSN = 123-45-6789, Hours worked = 5000.0, Commission Rate = 0.22
+Compute Pay = $1645.6
+
+Salaried: name = Mickey Mouse, SSN = 987-65-4321, Salary = $100000.0
+Compute Pay = $8333.33
+
+Salaried: name = Bugs Bunny, SSN = 121-21-2121, Salary = $90000.0
+Compute Pay = $7500.0
+
+Commissioned: name = Elmer Fudd, SSN = 343-43-4343, Hours worked = 3000.0, Commission Rate = 0.25
+Compute Pay = $1120.0
+
