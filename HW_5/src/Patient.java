@@ -7,7 +7,7 @@ public abstract class Patient {
     protected double height = 0.0;
     protected double weight = 0.0;
 
-    public Patient(String name, int birthYear, int birthMonth) {
+    private Patient(String name, int birthYear, int birthMonth) {
         setName(name);
         this.birthYear =  birthYear;
         this.birthMonth = birthMonth;
@@ -18,6 +18,10 @@ public abstract class Patient {
         this(name, birthYear, birthMonth);
         setHeight(height);
         setWeight(weight);
+    }
+
+    public Patient() {
+
     }
 
     public String getName() {
@@ -58,9 +62,40 @@ public abstract class Patient {
         }
     }
 
-    public void currentAge() {
+    public int currentAge() {
         GregorianCalendar cal = new GregorianCalendar();
-        cal.get(Calendar.YEAR);
-        cal.get(Calendar.MONTH + 1);
+        int currentYear = cal.get(Calendar.YEAR);
+        int currentMonth = cal.get(Calendar.MONTH) + 1;
+
+        int age = currentYear - birthYear;
+        if (currentMonth < birthMonth) {
+            age-=1;
+        }
+        return age;
+    }
+
+    public abstract double calcIdealWeight();
+
+    public abstract double calcBMR();
+
+    @Override
+    public String toString() {
+        StringBuilder description = new StringBuilder("Patient: ");
+        description.append("Name = ");
+        description.append(name);
+        description.append(", \n");
+        description.append("\tBirth month/year = ");
+        description.append(birthMonth);
+        description.append("/");
+        description.append(birthYear);
+        description.append(", ");
+        description.append("Height = ");
+        description.append(height);
+        description.append(" cm.");
+        description.append(", ");
+        description.append("Weight = ");
+        description.append(weight);
+        description.append(" kg.");
+        return description.toString();
     }
 }
