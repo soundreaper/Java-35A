@@ -57,15 +57,15 @@ public class PatientDriver {
     public static int underweightCheck(Patient[] printedArr) {
         int underweightCount = 0;
 
-        if (AdultFemale instanceof ) {
-
-        }
-
-        for (Patient pat : printedArr) {
-            if (pat.weight < pat.calcIdealWeight()) {
+        for (int i = 0; i < printedArr.length; i++) {
+            if (!(printedArr[i] instanceof AdultFemale) || printedArr[i] instanceof AdultMale) {
+                return -1;
+            }
+            if (printedArr[i].weight < printedArr[i].calcIdealWeight()) {
                 underweightCount++;
             }
         }
+        return underweightCount;
     }
 
     public static void main(String[] args) {
@@ -73,5 +73,6 @@ public class PatientDriver {
         patientArr = returnArr();
         patientArr = sortArr(patientArr);
         printArr(patientArr);
+        underweightCheck(patientArr);
     }
 }
