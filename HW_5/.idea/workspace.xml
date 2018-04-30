@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01f2019c-b19c-4201-b60c-050f956b18e1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../HW_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PatientDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PatientDriver.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +17,7 @@
       <file leaf-file-name="Patient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Patient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
+            <state relative-caret-position="810">
               <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
               <folding>
                 <element signature="e#653#654#0" expanded="true" />
@@ -40,7 +38,7 @@
       <file leaf-file-name="AdultMale.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AdultMale.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="300">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#692#693#0" expanded="true" />
@@ -55,7 +53,7 @@
       <file leaf-file-name="AdultFemale.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AdultFemale.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="270">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#696#697#0" expanded="true" />
@@ -70,11 +68,8 @@
       <file leaf-file-name="PatientDriver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PatientDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-              <folding>
-                <element signature="e#0#6923#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -102,10 +97,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1930" />
     <option name="y" value="22" />
-    <option name="width" value="1888" />
-    <option name="height" value="1058" />
+    <option name="width" value="1440" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -113,7 +107,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,8 +125,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -152,7 +146,9 @@
   </component>
   <component name="RunManager" selected="Application.PatientDriver">
     <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="WIDTH" value="0" />
     </configuration>
     <configuration name="Patient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Patient" />
@@ -243,18 +239,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32960325" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3282365" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -263,14 +259,15 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3985729" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32960325" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -282,6 +279,110 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+          <folding>
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdultMale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdultFemale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PatientDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+          <folding>
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdultMale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PatientDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdultFemale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Patient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -331,9 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#6923#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -373,9 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#6923#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -472,9 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="56" column="62" lean-forward="true" selection-start-line="56" selection-start-column="62" selection-end-line="56" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#6923#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -546,7 +638,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Patient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
+        <state relative-caret-position="810">
           <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
           <folding>
             <element signature="e#653#654#0" expanded="true" />
@@ -565,7 +657,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AdultFemale.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="270">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#696#697#0" expanded="true" />
@@ -578,7 +670,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AdultMale.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="300">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#692#693#0" expanded="true" />
@@ -591,11 +683,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PatientDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#6923#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
         </state>
       </provider>
     </entry>

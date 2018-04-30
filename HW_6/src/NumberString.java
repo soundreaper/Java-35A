@@ -45,16 +45,6 @@ public class NumberString {
         reverseStr.delete(0, reverseStr.length());
     }
 
-    private StringBuilder reverse(StringBuilder sB) {
-        StringBuilder reversedSB = new StringBuilder();
-
-        for (int i = sB.length() - 1; i >= 0; i--) {
-            reversedSB.append(sB.charAt(i));
-        }
-
-        return reversedSB;
-    }
-
     private Integer addSingleDigit(String s1, String s2, Integer carry, StringBuilder sum) {
         Integer n1 = Integer.parseInt(s1);
         Integer n2 = Integer.parseInt(s2);
@@ -108,7 +98,8 @@ public class NumberString {
         clear();
 
         numStrPalin.append(numStr);
-        reverseStr.append(reverse(numStrPalin));
+        reverseStr.append(numStrPalin.reverse());
+        numStrPalin.reverse();
 
         while (true) {
             if (numStrPalin.toString().equals(reverseStr.toString()) || numStrPalin.length() > SIZE) {
@@ -118,7 +109,9 @@ public class NumberString {
             addNumStr();
 
             reverseStr.delete(0, reverseStr.length());
-            reverseStr.append(reverse(numStrPalin));
+
+            reverseStr.append(numStrPalin.reverse());
+            numStrPalin.reverse();
         }
 
         if (numStrPalin.length() > SIZE) {
